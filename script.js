@@ -3,7 +3,7 @@ chk.addEventListener("change", () => {
   document.body.classList.toggle("dark")
 })
 function mostraMsg() {
-  alert("Tema Dark ativado!💗")
+  alert("Você mudou de tema!💗")
 }
 window.onload = function () {
   let botaoAlerta = document.getElementById("chk")
